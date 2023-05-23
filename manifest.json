@@ -1,0 +1,26 @@
+{
+  "manifest_version": 2,
+  "name": "Countdown Timer",
+  "version": "1.0",
+  "description": "Set and manage countdown timers within the browser.",
+  "permissions": [
+    "tabs"
+  ],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "16.png",
+      "48": "48.png",
+      "32": "32.png"
+    }
+  },
+  "icons": {
+    "16": "16.png",
+    "48": "48.png",
+    "32": "32.png"
+  }
+}
